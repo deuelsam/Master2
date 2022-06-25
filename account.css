@@ -1,0 +1,28 @@
+div {
+    
+float:right;
+padding-right: 50%;
+padding-top: 11%;
+color:rgb(6, 169, 233);
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+#box_element {
+
+width: 100%;
+height: 40px;
+border-left-color:rgb(6, 169, 233) ;
+
+}
+
+#sub_element {
+    width: 100%;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(6, 169, 233);
+    border: none;
+    font-size: large;
+    color: white;
+}

@@ -1,0 +1,40 @@
+
+table{
+   
+    background-color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px;
+    
+    
+    
+   
+    
+}
+thead {
+    background-color:ghostwhite;
+}
+
+
+button {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    background-color:whitesmoke;
+ 
+}
+#coupon_element {
+    border-radius: 2px;
+    background-color: skyblue;
+    width: 120px;
+    height: 30px;
+    
+}
+
+#checkout_element{
+    border-radius:  2px;
+    background-color: skyblue;
+    width: 200px;
+    height:40 px;
+
+}
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> Invoice </title>
+    <link rel="stylesheet" href="./Invoice.css" />
+</head>
+
+<body>
+    <h4> The Templace</h4>
+
+    <br />
+    <h4> Cart</h4>
+    <br />
+    <table>
+        <thead>
+            <tr>
+                <th> </th>
+                <th> </th>
+
+                <th colspan="2"> PRODUCT</th>
+                <th> PRICE </th>
+                <th> QUANTITY</th>
+                <th> TOTAL </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><button>X</button></td>
+                <td><img src="https://picsum.photos/30" /></td>
+                <td colspan="2"> Placeholder Product 7</td>
+                <td> $5.00 </td>
+                <td> - 1 + </td>
+                <td> $5.00</td>
+            </tr>
+            <tr>
+                <td><button>X</button></td>
+                <td><img src="https://picsum.photos/30" /></td>
+                <td colspan="2"> Placeholder Product 4</td>
+                <td> $67.00 </td>
+                <td> - 1 + </td>
+                <td> $67.00</td>
+            </tr>
+            <tr>
+                <td><button>X</button></td>
+                <td><img src="https://picsum.photos/30" /></td>
+                <td colspan="2"> Placeholder Product 8 - Black, Amber 65</td>
+                <td> $20.00 </td>
+                <td> - 1 + </td>
+                <td> $20.00</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td> <input type="Coupon code" placeholder="Coupon Code" /></td>
+                <td></td>
+                <td><button id="coupon_element"> APPLY COUPON</button></td>
+                <td></td>
+                <td></td>
+                <td><button id="coupon_element"> UPDATE CART</button></td>
+            </tr>
+
+        </tbody>
+    </table>
+    <table>
+        <thead>
+            <br />
+            <br />
+            <br />
+            <tr>
+                <th colspan="2"> Cart totals </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Subtotal</td>
+                <td> $92.00</td>
+            </tr>
+            <tr>
+                <td> Total</td>
+                <td> $92.00</td>
+            </tr>
+            <tr>
+                <td colspan="2"><button id="checkout_element"> PROCEED TO CHECKOUT </button></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+
+</html>
