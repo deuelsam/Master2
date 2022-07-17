@@ -5,9 +5,10 @@ body{
 form {
     
     background-color: black;
-    width: 180px;
-    margin-left: 8%;
+    width: 200px;
+    margin-left: 0%;
     position:fixed;
+    border-radius: 6%;
 
    
     
@@ -30,7 +31,11 @@ button {
     color: white;
 }
 #element_first {
-    border-radius: 45%;
-    width: 70px;
+    border-radius: 40%;
+    width: 80px;
+    
 }
 
+div {
+    border-radius: 50%;
+}
