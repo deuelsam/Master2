@@ -8,13 +8,20 @@
     </head>
     <body>
         <h3> Authentic Indian Resto</h3>
-        <button>Dosa</button>
-        <button>Rice</button>
-        <button>Curry</button>
-        <button>Bread</button>
-        <button>Cold Drink</button>
-<ul>
-    
+        <button onclick="orderDosa();">Dosa $1  </button>
+        <button onclick="orderRice();">Rice $1.2 </button>
+        <button onclick="orderCurry();">Curry $1.5</button>
+        <button onclick="orderBread();">Bread $0.75</button>
+        <button onclick="orderDrink();">Cold Drink $1.10</button>
+        <br/>
+        <br/>
+        <h5> Your ordered Items </h5>
+<ul id = "item_list">
+    <li> Rice</li>
+    <li> Curry</li>
 </ul>
+<h4> Total Price: $<span id = "amount"> 0</span> </h4>
+<button onclick="reset();"> Reset </button>
+<script src="./resto.js"></script>
     </body>
 </html>
