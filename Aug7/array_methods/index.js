@@ -119,15 +119,16 @@ const obj = {
     last_name: "Muhikira",
     role: "learner"
 };
-console.log(obj);
+// console.log(obj);
 
 
-// const first_name = obj.first_name;
-// const last_name = obj.last_name;
-// const role = obj.role;
+const first_name = obj.first_name;
+const last_name = obj.last_name;
+const role = obj.role;
 
 
-// console.log(first_name,last_name,role);
+console.log(first_name,last_name,role);
 
-const{first_name,last_name,role} =obj;
-console.log(first_name,last_name,role)
+// const{first_name,last_name,role} =obj;
+// console.log(first_name,last_name,role)
+

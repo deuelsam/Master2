@@ -37,16 +37,16 @@
 //     }
 
 
-// function calculate_sum(){
-//    let number1 = document.getElementById('ip1').value;
-//    let number2 = document.getElementById('ip2').value;
+function calculate_sum(){
+   let number1 = document.getElementById('ip1').value;
+   let number2 = document.getElementById('ip2').value;
 
-//    number1 = Number(number1);
-//    number2 = Number(number2);
+   number1 = Number(number1);
+   number2 = Number(number2);
 
-//    let sum = number1+number2;
-//    document.getElementById('op').innerText = sum;
-// }
+   let sum = number1+number2;
+   document.getElementById('op').innerText = sum;
+}
 
 // let btn1= document.getElementById('btn1');
 // btn1.onclick= function(){
